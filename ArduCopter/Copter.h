@@ -906,6 +906,9 @@ private:
 #if MODE_AUTO_ENABLED == ENABLED
     ModeAuto mode_auto;
 #endif
+#if MODE_MODE_DRIVE_ENABLED == ENABLED // initializing ModeDrive
+    ModeDrive mode_drive;
+#endif
 #if AUTOTUNE_ENABLED == ENABLED
     AutoTune autotune;
     ModeAutoTune mode_autotune;
